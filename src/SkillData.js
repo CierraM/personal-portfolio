@@ -8,6 +8,10 @@ const Proficient = [
         logo: './images/icons/react-original.svg'
     },
     {
+        skill: "Angular",
+        logo: "./images/icons/angular.svg"
+    },
+    {
         skill: "Node JS ",
         logo: "./images/icons/nodejs-original.svg"
     },
@@ -19,26 +23,9 @@ const Proficient = [
         skill: "Git",
         logo: "./images/icons/git-scm-icon.svg"
     },
-    
-    {
-        skill: "SocketIO",
-        logo: "./images/icons/socket-io.svg"
-    },
-    {
-        skill: "C Language",
-        logo: "./images/icons/icons8-c-programming-48.png"
-    },
-    {
-        skill: "C++ Language",
-        logo: "./images/icons/icons8-c++.svg"
-    },
     {
         skill: "MySql",
         logo: "./images/icons/mysql-ar21.svg"
-    },
-    {
-        skill: "Redis",
-        logo: "./images/icons/redis-icon.svg"
     },
     {
         skill: "HTML 5",
@@ -48,28 +35,38 @@ const Proficient = [
         skill: "CSS 3",
         logo: "./images/icons/css3-original.svg"
     },
-]
-const Familiar = [
     {
-        skill: "Java",
-        logo: "./images/icons/java-icon.svg"
+        skill: "SCSS",
+        logo: "./images/icons/sass-logo.png"
     },
     {
         skill: "Python",
-        logo: "./images/icons/python-icon.svg"
+        logo: "./images/icons/python.png"
+    },
+    
+    {
+        skill: "C#/.NET",
+        logo: "./images/icons/NET_Core_Logo.svg.png"
     },
     {
-        skill: "WebRTC",
-        logo: "./images/icons/webrtc.svg"
+        skill: "Adobe Xd",
+        logo: "./images/icons/xd.png"
     },
     {
-        skill: "Linux",
-        logo: "./images/icons/linux-icon.svg"
+        skill: "Photoshop",
+        logo: "./images/icons/photoshop.png"
     },
     {
-        skill: "AWS",
-        logo: "./images/icons/amazon_aws-icon.svg"
+        skill: "InDesign",
+        logo: "./images/icons/indesign.png"
     },
+    {
+        skill: "Illustrator",
+        logo: "./images/icons/illustrator.png"
+    }
+]
+const Familiar = [
+
     
 ]
 export { Proficient, Familiar }

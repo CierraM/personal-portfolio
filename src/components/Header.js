@@ -3,8 +3,13 @@ import { RESUME_PATH } from '../root.link';
 
 const Header = () => {
   return (
-    <nav className='space-x-10'>
-      <ul className='flex flex-row space-x-4 md:space-x-10 md:text-xl justify-center md:justify-end font-thin'>
+    <nav className=' p-4'>
+      <ul className='flex flex-row space-x-4  md:text-xl justify-center md:justify-end font-thin'>
+      <li>
+          <a href='#Education' className='py-1 px-5 hover:bg-gray focus:bg-gray rounded-lg'>
+            Education
+          </a>
+        </li>
         <li>
           <a href='#Experience' className='py-1 px-5 hover:bg-gray focus:bg-gray rounded-lg'>
             Experience
@@ -17,7 +22,7 @@ const Header = () => {
         </li>
         <li>
           <a href='#Skill' className='py-1 px-5 hover:bg-gray focus:bg-gray rounded-lg'>
-            Skill
+            Skills
           </a>
         </li>
         <li>

@@ -1,4 +1,6 @@
 import { lazy, Suspense } from 'react';
+import Education from './components/Education';
+import Footer from './components/Footer';
 
 const Header = lazy(() => import('./components/Header'));
 const Hero = lazy(() => import('./components/Hero'));
@@ -18,15 +20,17 @@ function App() {
         </div>
       }
     >
-      <div className='App container my-10 mx-auto max-w-screen-lg bg-black'>
+      <div className='App container my-10 mx-auto max-w-screen-lg'>
         <Header />
         <main>
           <Hero />
-          <Experience />
           <Project />
+          <Education />
+          <Experience />
           <Skill />
           <Contact />
         </main>
+        <Footer />
       </div>
     </Suspense>
   );

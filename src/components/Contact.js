@@ -2,7 +2,7 @@ import React from 'react';
 import { ADDRESS, EMAIL_ID, FIRST_NAME, GITHUB_USERNAME, LAST_NAME, LINKEDIN_USERNAME, RESUME_PATH, TWITTER_ID } from '../root.link'
 const Contact = () => {
   return (
-    <section className='my-28' id='contact'>
+    <section className='mt-28' id='contact'>
       <header className='px-5 text-2xl font-bold pt-10'>
         <h2>Contact Me</h2>
         <p className='text-base font-thin'>I'd love to hear your thoughts!</p>
@@ -38,12 +38,6 @@ const Contact = () => {
               </a>
             </div>
 
-            <a href={`https://twitter.com/${TWITTER_ID}`} target='_blank' rel='noreferrer'>
-              <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
-                <img src='./images/icons/icons8-twitter (2).svg' alt='' width='24px' height='24px' className='mr-1' />
-                 Twitter
-              </span>
-            </a>
           </div>
         </div>
 
@@ -64,11 +58,9 @@ const Contact = () => {
         </div>
       </div>
       <div className='relative md:bottom-56 mr-auto ml-auto md:mr-auto md:ml-0 max-w-xs md:max-w-sm' onClick={() => window.scroll(0, 0)}>
-        <picture>
-          <source srcSet='./images/rocket-320.webp 320w, ./images/rocket.webp 768w' type='image/webp' />
-          <source srcSet='./images/rocket.png' sizes='(min-width: 768px) 50vw, 100vw' type='image/png' />
-          <img width='500px' height='500px' loading='lazy' alt='red rocket flying' />
-        </picture>
+  
+          <img src="images/computer.jpg" width='500px' height='500px' loading='lazy' alt='red rocket flying' />
+
       </div>
     </section>
   );
