@@ -13,6 +13,7 @@ module.exports = {
       danger: '#e3342f',
       black: '#121212',
       gray: '#1c1c1c',
+      purple: '#182960'
     }),
   },
   variants: {
