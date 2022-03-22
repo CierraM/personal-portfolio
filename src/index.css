@@ -243,3 +243,8 @@ textarea {
 	border: none !important;
 	color: black !important;
 }
+
+.portfolio-img{
+	aspect-ratio: 16/9;
+	object-fit: cover;
+}
