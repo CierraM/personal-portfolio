@@ -1,8 +1,17 @@
 import { Carousel } from '3d-react-carousal';
 import projects from '../projectData';
 import { GITHUB_USERNAME } from '../root.link';
+import { useState } from 'react'
+import Project from './Project';
 
 const ProjectSlider = () => {
+    const [listView, setListView] = useState(true)
+
+    const toggleListView = () => {
+        setListView(prev => {
+            return !prev;
+        })
+    }
     let slides = projects.map((project, index) => (
         <article className='flex flex-col h-max  bg-white ' key={index} >
             <img src={project.image} alt={project.title} className="portfolio-img" />
@@ -32,13 +41,17 @@ const ProjectSlider = () => {
 
 
     return (
-        <section className='my-28 px-5 projectSlider' id='projects'>
-            <header className='text-2xl font-bold pt-10'>
+        <section className={`my-28 px-5  ${!listView && 'projectSlider'}`} id='projects'>
+            <header className='text-2xl font-bold pt-10 flex justify-between'>
+                <div>
                 <h2>Projects</h2>
                 <p className='text-sm'>(Swipe to view next)</p>
+                </div>
+                <button onClick={toggleListView} className="text-sm underline">{listView ? "Carousel View" : "List View"}</button>
             </header>
             <div className='my-7 space-y-24'>
-                <Carousel slides={slides} autoplay={false} arrows={true} />
+                {!listView && <Carousel slides={slides} autoplay={false} arrows={true} />}
+                {listView && <Project />}
             </div>
         </section>
     )
