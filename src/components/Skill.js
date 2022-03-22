@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Proficient, Familiar } from '../SkillData'
+import { Proficient } from '../SkillData'
 const Skill = () => {
   return (
     <div id="Skill">

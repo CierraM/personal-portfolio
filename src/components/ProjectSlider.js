@@ -1,11 +1,10 @@
 import { Carousel } from '3d-react-carousal';
 import projects from '../projectData';
-import { GITHUB_USERNAME } from '../root.link';
 import { useState } from 'react'
 import Project from './Project';
 
 const ProjectSlider = () => {
-    const [listView, setListView] = useState(true)
+    const [listView, setListView] = useState(false)
 
     const toggleListView = () => {
         setListView(prev => {

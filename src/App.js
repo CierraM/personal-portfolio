@@ -6,7 +6,6 @@ import ProjectSlider from './components/ProjectSlider';
 
 const Header = lazy(() => import('./components/Header'));
 const Hero = lazy(() => import('./components/Hero'));
-const Project = lazy(() => import('./components/Project'));
 const Skill = lazy(() => import('./components/Skill'));
 const Contact = lazy(() => import('./components/Contact'));
 const Experience = lazy(() => import('./components/Experience'))

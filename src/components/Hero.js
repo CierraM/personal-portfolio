@@ -1,8 +1,5 @@
-import React, { useEffect, useRef, useState, useMemo } from 'react';
-import { FRONT_PAGE_DESC, FRONT_PAGE_NAME } from '../root.link';
-import Shape from './Shape';
-import * as THREE from "three";
-import { Canvas, useFrame } from "react-three-fiber";
+import React from 'react';
+
 
 const Hero = () => {
 
