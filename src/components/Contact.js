@@ -59,7 +59,7 @@ const Contact = () => {
       </div>
       <div className='relative md:bottom-56 mr-auto ml-auto md:mr-auto md:ml-0 max-w-xs md:max-w-sm' onClick={() => window.scroll(0, 0)}>
   
-          <img src="images/computer.jpg" width='500px' height='500px' loading='lazy' alt='red rocket flying' />
+          <img src="images/computer.png" className="w-full" width='500px' height='500px' loading='lazy' alt='computer with code' />
 
       </div>
     </section>

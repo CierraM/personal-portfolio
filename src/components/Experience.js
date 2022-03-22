@@ -3,8 +3,8 @@ import workHistory from '../ExData'
 import './style.ex.css'
 function Experience() {
     return (
-        <div id="Experience md:mx-5">
-            <section className='my-28 px-5' id='projects'>
+        <div id="Experience">
+            <section className='my-28 px-5'>
                 <header className='text-2xl font-bold pt-10'>
                     <h2>Experience</h2>
                 </header>

@@ -4,12 +4,24 @@ const Proficient = [
         logo: './images/icons/javascript-original.svg'
     },
     {
+        skill: "HTML 5",
+        logo: "./images/icons/html5-original.svg"
+    },
+    {
+        skill: "CSS 3",
+        logo: "./images/icons/css3-original.svg"
+    },
+    {
         skill: "React Js",
         logo: './images/icons/react-original.svg'
     },
     {
         skill: "Angular",
         logo: "./images/icons/angular.svg"
+    },
+    {
+        skill: "Typescript",
+        logo: "./images/icons/typescript.png"
     },
     {
         skill: "Node JS ",
@@ -27,14 +39,7 @@ const Proficient = [
         skill: "MySql",
         logo: "./images/icons/mysql-ar21.svg"
     },
-    {
-        skill: "HTML 5",
-        logo: "./images/icons/html5-original.svg"
-    },
-    {
-        skill: "CSS 3",
-        logo: "./images/icons/css3-original.svg"
-    },
+    
     {
         skill: "SCSS",
         logo: "./images/icons/sass-logo.png"

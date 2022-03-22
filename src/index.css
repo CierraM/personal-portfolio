@@ -15,6 +15,11 @@
 	--lighter-purple: #4153a3;
 }
 
+* {
+	/* put everything on top of the particles */
+	z-index: 50;
+}
+
 body {
 	width: 100%;
 	height: 100%;
@@ -216,7 +221,25 @@ textarea {
 }
 
 .education section {
-	/* transform: skewY(10deg); */
+	transform: skewY(10deg);
 	background-color: #374893;
 	color: white;
+}
+
+.education header {
+	transform: skewY(10deg);
+}
+
+.projectSlider {
+	height: 500px;
+}
+@media (min-width: 768px) {
+.projectSlider {
+	height: 600px;
+}
+}
+
+.react-3d-carousel .slider-container .slider-right div, .slider-left div {
+	border: none !important;
+	color: black !important;
 }
