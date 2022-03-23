@@ -10,7 +10,7 @@ const Hero = () => {
       <div className=' sm:-mb-5 space-y-5 text-center md:text-left md:mb-auto '>
         <h1 className='text-5xl font-bold md:text-7xl '>Hello. I’m Cierra</h1>
         <p className='tracking-wide leading-relaxed'>
-          Full Stack Developer
+          Full Stack Developer &amp; Passionate Problem Solver
         </p>
       </div>
     </section>

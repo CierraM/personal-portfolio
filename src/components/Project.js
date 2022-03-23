@@ -1,7 +1,6 @@
 import React from 'react';
 import { Fragment } from 'react/cjs/react.production.min';
 import projects from '../projectData';
-import { GITHUB_USERNAME } from '../root.link';
 
 const Project = () => {
   return (

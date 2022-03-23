@@ -2,7 +2,6 @@ import { Carousel } from '3d-react-carousal';
 import projects from '../projectData';
 import { useState } from 'react'
 import Project from './Project';
-import { Fragment } from 'react/cjs/react.production.min';
 
 const ProjectSlider = () => {
     const [listView, setListView] = useState(false)
@@ -47,7 +46,7 @@ const ProjectSlider = () => {
                     <h2>Projects</h2>
                     <p className='text-sm'>(Swipe to view next)</p>
                 </div>
-                <button onClick={toggleListView} className="text-sm underline">{listView ? "Carousel View" : "List View"}</button>
+                <button onClick={toggleListView} className="text-sm underline">{listView ? "Slider" : "List"}</button>
             </header>
             <div className='my-7 space-y-24'>
                 {!listView && <Carousel slides={slides} autoplay={false} arrows={true} />}
