@@ -6,7 +6,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 export default function Header() {
   return (
-    <Disclosure as="nav" className="bg-white ">
+    <Disclosure as="nav" className="">
       {({ open }) => (
         <>
           <div className=" sm:px-6 lg:px-0">
@@ -81,7 +81,7 @@ export default function Header() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          <Disclosure.Panel className="sm:hidden relative">
             <div className="pt-2 pb-3 space-y-1">
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               <Disclosure.Button

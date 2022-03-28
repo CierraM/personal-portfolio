@@ -21,8 +21,8 @@ function App() {
         </div>
       }
     >
-      <ParticlesContainer className="!z-0"/>
-      <div className='App container mx-auto max-w-screen-lg z-10'>
+      <ParticlesContainer/>
+      <div className='App container px-2.5 mx-auto max-w-screen-lg z-10'>
         <Header />
         <main>
           <Hero />

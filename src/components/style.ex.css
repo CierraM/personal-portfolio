@@ -35,7 +35,7 @@ Main components
   content: "";
   position: absolute;
   top: 0;
-  left: 25px;
+  left: -12px;
   height: 100%;
   width: 4px;
   background: var(--lighter-purple);
@@ -137,7 +137,8 @@ Main components
     }
    .cd-timeline-content , .timeline-content-info , .timeline-content-info-title,
     .timeline-content-info-date {
-      width: calc(50% - 2px);
+      max-width: 1000px;
+      width: 100%;
       display: inline-block;
     }
 
