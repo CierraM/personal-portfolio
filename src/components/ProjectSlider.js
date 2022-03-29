@@ -12,10 +12,10 @@ const ProjectSlider = () => {
         })
     }
     let slides = projects.map((project, index) => (
-        <article className='flex flex-col h-max  bg-white w-400' key={index} >
+        <article className='flex flex-col h-max  bg-white slider-item' key={index} >
             <img src={project.image} alt={project.title} className="portfolio-img" />
 
-            <div className='flex flex-col overflow-visible  space-y-3  w-full p-2'>
+            <div className='flex flex-col overflow-visible  space-y-3  w-full p-2 text'>
                 <h3 className='uppercase font-bold text-lg'>{project.title}</h3>
                 <p>{project.description}</p>
                 <div className='flex overflow-auto space-x-3 pb-2 '>
@@ -44,7 +44,7 @@ const ProjectSlider = () => {
             <header className='text-2xl font-bold pt-10 flex justify-between'>
                 <div>
                     <h2>Projects</h2>
-                    <p className='text-sm'>(Swipe to view next)</p>
+                    { !listView && <p className='text-sm'>(Swipe to view next)</p>}
                 </div>
                 <button onClick={toggleListView} className="text-sm underline">{listView ? "Slider" : "List"}</button>
             </header>

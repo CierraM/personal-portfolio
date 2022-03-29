@@ -12,7 +12,7 @@ const Proficient = [
         logo: "./images/icons/css3-original.svg"
     },
     {
-        skill: "React Js",
+        skill: "React",
         logo: './images/icons/react-original.svg'
     },
     {

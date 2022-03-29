@@ -1,25 +1,26 @@
 const workHistory = [
     {
-        companyName : 'Company Name 1',
-        role: 'SDE Intern',
-        duration: "July'21 – Oct'21",
+        companyName : 'BYU-Idaho Computer Science',
+        role: 'Teaching Assistant',
+        duration: "Aug 2020 – Present",
         workDes: [
-            'Build So and so on for xyz.',
-            'Designed and developed REST API’s to integrate user interaction with Twitter and Linkedin on server.',
+            'Kept track of student progress and grading',
+            'Gave feedback to students on assignments and projects',
+            'Tutored students in HTML, CSS, JavaScript, and Python',
+            'Assisted in course content development'
+
         ],
-        exposer: ["React", "Redux Saga ", "NodeJs", "ExpressJs", "MongoDB", "Heroku", "Twitter API’s", "LinkedIn API"] ,
-        link: 'https://google.com/',
+        exposer: ['HTML', 'CSS', 'JavaScript', 'React', 'Python', 'Node.js',
+        ]
     },
     {
-        companyName: 'Company Name 2',
-        role: 'SDE Intern',
-        duration: "Mar'21 – Apr'21",
+        companyName: 'Be Anything',
+        role: 'Styling Consultant',
+        duration: "Dec 2020",
         workDes: [
-            'Developed full stack B2B admin portal web application using Reactjs,Mongodb, Nodejs.',
-            'Designed and developed REST APIs to increase user interaction on the server.',
+            'Developed React styled components for an ed tech web app'
         ],
-        exposer: ["React ", "NodeJs", "MongoDB" , "ContextAPI"],
-        link: 'https://google.com/',
+        exposer: ["React Styled Components", "Storybook"]
     },
     
 ];

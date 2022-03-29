@@ -12,8 +12,8 @@ function Experience() {
                     <div className="main-cont">
                         <section id="cd-timeline" className="cd-container">
                             {/*  */}
-                            {workHistory && workHistory.map((work) => (
-                                <div className="cd-timeline-block">
+                            {workHistory && workHistory.map((work, num) => (
+                                <div className="cd-timeline-block" key={num}>
                                     <div className="cd-timeline-img cd-picture"></div>
                                     <div className="cd-timeline-content">
                                         <h1 className="uppercase font-bold text-2xl pl-3 pt-2 flex">{work?.companyName}

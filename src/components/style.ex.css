@@ -97,7 +97,7 @@ Main components
     height: 30px;
     left: 50%;
     margin-left: -15px;
-    margin-top: 15px;
+    margin-top: 10px;
     /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
@@ -217,8 +217,8 @@ Main components
   .cd-timeline-content {
     margin-left: 0;
     padding: 1.6em;
-    width: 36%;
-    margin: 0 5%;
+    width: 45%;
+    /* margin: 0 5%; */
   }
   .cd-timeline-content::before {
     top: 24px;
@@ -252,4 +252,8 @@ Main components
     right: 122%;
     text-align: right;
   }
+}
+
+.ohnohoney {
+  display: none;
 }

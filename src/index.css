@@ -15,6 +15,8 @@
 	--lighter-purple: #4153a3;
 }
 
+
+
 * {
 	/* put everything on top of the particles */
 	z-index: 50;
@@ -249,8 +251,50 @@ textarea{
 	border: none !important;
 	color: black !important;
 }
+.slider-item{
+	min-height: 550px;
+} 
 
-.portfolio-img{
-	aspect-ratio: 16/9;
-	object-fit: cover;
+.slider-item img {
+	height: auto;
+}
+
+
+@media (max-width: 850px) {
+	.slider-item {
+		min-height: 500px;
+	}
+}
+
+@media (max-width:750px) {
+	.slider-item {
+		min-height: 450px;
+	}
+}
+
+@media (max-width: 650px) {
+	.slider-item {
+		min-height: 400px;
+	}
+}
+
+@media (max-width:500px) {
+
+
+	.slider-item .text{
+		width: 80vw;
+		min-height: 250px;
+	}
+}
+
+button:disabled{
+	background-color: #d5d5d5;
+	border: 1px solid #a4a4a4;
+	color: rgb(104, 104, 104);
+}
+
+button:disabled:hover {
+	--tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+	cursor: not-allowed;
 }
