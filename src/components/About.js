@@ -29,7 +29,7 @@ const About = () => {
                     </section>
                 </div>
                 <div className="bg-white rounded-full w-48 h-48 m-4 shrink-0 border-white border-4">
-                    <img src="./images/profile.jpg" className=" w-full rounded-full" alt="a picture of me"/>
+                    <img src="./images/profile.jpg" className=" w-full rounded-full" alt="me in front of a lake"/>
                 </div>
             </div>
         </div>
