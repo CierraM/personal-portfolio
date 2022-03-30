@@ -5,7 +5,7 @@ const Education = () => {
     return (
         <Fragment>
             
-            <div id="Education" class="education bg-gradient-to-r from-blue-100 to-red-300 h-96 flex flex-col mt-44 flex justify-center">
+            <div id="Education" class="education bg-gradient-to-r from-blue-100 to-red-300 h-96 flex flex-col mt-44 flex justify-center shadow-md">
             <header className='text-2xl font-bold mb-2 text-center'>
                 <h2>Education</h2>
             </header>

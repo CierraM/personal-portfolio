@@ -9,11 +9,23 @@ export default function Header() {
     <Disclosure as="nav" className="">
       {({ open }) => (
         <>
-          <div className=" sm:px-6 lg:px-0">
-            <div className="flex justify-end h-16">
+          <div className=" lg:px-0">
+            <div className="flex lg:justify-end h-16">
               <div className="flex">
                 <div className="hidden sm:flex sm:space-x-8">
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
+                  <a
+                    href="#About"
+                    className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
+                  >
+                    About
+                  </a>
+                  <a
+                    href="#projects"
+                    className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
+                  >
+                    Projects
+                  </a>
                   <a
                     href="#Education"
                     className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
@@ -25,12 +37,6 @@ export default function Header() {
                     className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
                   >
                     Experience
-                  </a>
-                  <a
-                    href="#projects"
-                    className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
-                  >
-                    Projects
                   </a>
                   <a
                     href="#Skill"
@@ -80,6 +86,17 @@ export default function Header() {
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               <Disclosure.Button
                 as="a"
+                href="#About"
+                className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+              >About</Disclosure.Button>
+              <Disclosure.Button
+                as="a"
+                href="#projects"
+                className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+              >Projects
+              </Disclosure.Button>
+              <Disclosure.Button
+                as="a"
                 href="#Education"
                 className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
               >
@@ -92,13 +109,7 @@ export default function Header() {
               >
                 Experience
               </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="#projects"
-                className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-              >
-                Projects
-              </Disclosure.Button>
+                
               <Disclosure.Button
                 as="a"
                 href="#Skill"

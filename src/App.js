@@ -3,6 +3,7 @@ import Education from './components/Education';
 import Footer from './components/Footer';
 import ParticlesContainer from './components/ParticlesContainer';
 import ProjectSlider from './components/ProjectSlider';
+import About from './components/About';
 
 const Header = lazy(() => import('./components/Header'));
 const Hero = lazy(() => import('./components/Hero'));
@@ -26,6 +27,7 @@ function App() {
         <Header />
         <main>
           <Hero />
+          <About />
           <ProjectSlider />
           <Education />
           <Experience />
