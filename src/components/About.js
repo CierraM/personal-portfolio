@@ -12,14 +12,14 @@ const About = () => {
                         <div className=''>
                             <div className="text-white mb-2 md:leading-7 md:text-lg">
                                 <p className="mb-4">
-                                My name is Cierra Morris. In grade school, I was a math whiz and musician. Now, I am a full stack web developer with a passion for learning and problem solving. I discovered programming in college and fell in love with it because it let me work through mind-bending logic puzzles, while being creative at the same time. I am introverted and observant, detail-oriented and motivated. 
+                                My name is Cierra Morris. In high school, I was a math whiz and musician. Now, I am a full stack web developer with a passion for learning and problem solving. I discovered programming in college and fell in love with it because it let me work through mind-bending logic puzzles, while being creative at the same time. I am introverted and observant, detail-oriented and motivated. 
                                 </p>
                                 <p className="mb-4">
                                 In my free time, I like reading, patio gardening, and trying new foods! The weirdest thing I have ever eaten is raw whale. My favorite food is freshly baked chocolate chip cookies.
 
                                 </p>
                                 <p className="mb-4">
-                                I build software to solve real problems. I believe in teamwork built on mutual respect, laughter, and great communication. If I sound like someone you want on your team, contact me using the form below, or send me an email at <a href="mailto: cierramorris09@gmail.com" class="border-b-2 mt-3 inline border-purple-200">cierramorris09@gmail.com</a> 😊.
+                                I build software to solve real problems. I believe in teamwork built on mutual respect, laughter, and great communication. If I sound like a good fit your team, feel free to reach out using the form below, or send me an email at <a href="mailto: cierramorris09@gmail.com" class="border-b-2 mt-3 inline border-purple-200">cierramorris09@gmail.com</a> 😊
                                 </p>
 
 
