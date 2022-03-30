@@ -10,7 +10,7 @@ const About = () => {
                     </header>
                     <section className='mx-auto'>
                         <div className=''>
-                            <div className="text-white mb-2 leading-7 text-lg">
+                            <div className="text-white mb-2 md:leading-7 md:text-lg">
                                 <p className="mb-4">
                                 My name is Cierra Morris. In grade school, I was a math whiz and musician. Now, I am a full stack web developer with a passion for learning and problem solving. I discovered programming in college and fell in love with it because it let me work through mind-bending logic puzzles, while being creative at the same time. I am introverted and observant, detail-oriented and motivated. 
                                 </p>

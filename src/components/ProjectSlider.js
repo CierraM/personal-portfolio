@@ -40,7 +40,7 @@ const ProjectSlider = () => {
 
 
     return (
-        <section className={`my-28 px-5  ${!listView && 'projectSlider'}`} id='projects'>
+        <section className={`md:my-28 px-5  ${!listView && 'projectSlider'}`} id='projects'>
             <header className='text-2xl font-bold pt-10 flex justify-between'>
                 <div>
                     <h2>Projects</h2>
