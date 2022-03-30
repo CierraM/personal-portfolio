@@ -31,6 +31,13 @@ const projects = [
     github: 'https://github.com/CierraM/cookbook-app',
     link: 'https://cierram.github.io/cookbook-app/',
   },
+  {
+    title: 'Book Box',
+    image: './images/bookbox.png',
+    description: 'Angular fullstack app to help users keep track of books they have read',
+    tools: ['Angular', 'Node.js', 'Express', 'MongoDb'],
+    github: 'https://github.com/CierraM/bookBox'
+  }
   
 ];
 
